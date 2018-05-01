@@ -1,7 +1,7 @@
 *Build go sdk*
 ```
-go get github.com/hyperledger/sawtooth-sdk-go
-cd $GOPATH/src/github.com/hyperledger/sawtooth-sdk-go
+go get github.com/dchote/sawtooth-sdk-go
+cd $GOPATH/src/github.com/dchote/sawtooth-sdk-go
 go generate
 ```
 Docker instructions

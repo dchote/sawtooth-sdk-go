@@ -17,7 +17,8 @@
 
 package signing
 
-// #cgo LDFLAGS: -lcrypto
+// #cgo LDFLAGS: -lcrypto -L/usr/local/opt/openssl/lib
+// #cgo CFLAGS: -I/usr/local/opt/openssl/include
 // #include "../c/c11_support.h"
 // #include "../c/c11_support.c"
 // #include "../c/loader.c"

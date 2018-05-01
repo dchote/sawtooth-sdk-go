@@ -21,9 +21,9 @@ package messaging
 
 import (
 	"fmt"
+	"github.com/dchote/sawtooth-sdk-go/logging"
+	"github.com/dchote/sawtooth-sdk-go/protobuf/validator_pb2"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/sawtooth-sdk-go/logging"
-	"github.com/hyperledger/sawtooth-sdk-go/protobuf/validator_pb2"
 	zmq "github.com/pebbe/zmq4"
 	uuid "github.com/satori/go.uuid"
 )

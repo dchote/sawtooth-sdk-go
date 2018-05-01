@@ -19,14 +19,14 @@ package tests
 
 import (
 	"fmt"
+	"github.com/dchote/sawtooth-sdk-go/messaging"
+	"github.com/dchote/sawtooth-sdk-go/mocks/mock_messaging"
+	"github.com/dchote/sawtooth-sdk-go/processor"
+	"github.com/dchote/sawtooth-sdk-go/protobuf/events_pb2"
+	"github.com/dchote/sawtooth-sdk-go/protobuf/state_context_pb2"
+	"github.com/dchote/sawtooth-sdk-go/protobuf/validator_pb2"
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/sawtooth-sdk-go/messaging"
-	"github.com/hyperledger/sawtooth-sdk-go/mocks/mock_messaging"
-	"github.com/hyperledger/sawtooth-sdk-go/processor"
-	"github.com/hyperledger/sawtooth-sdk-go/protobuf/events_pb2"
-	"github.com/hyperledger/sawtooth-sdk-go/protobuf/state_context_pb2"
-	"github.com/hyperledger/sawtooth-sdk-go/protobuf/validator_pb2"
 	"testing"
 )
 

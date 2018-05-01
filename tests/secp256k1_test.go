@@ -18,7 +18,7 @@
 package tests
 
 import (
-	. "github.com/hyperledger/sawtooth-sdk-go/signing"
+	. "github.com/dchote/sawtooth-sdk-go/signing"
 	"testing"
 )
 

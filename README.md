@@ -1,4 +1,9 @@
 *Build go sdk*
+
+* Install libssl-dev package
+* Install libzmq5-dev package
+
+* Install golang packages & build:
 ```
 go get github.com/golang/mock/gomock
 go install github.com/golang/mock/mockgen

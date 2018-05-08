@@ -15,8 +15,13 @@ mkdir -p  protobuf mocks/mock_messaging
 
 # Update import paths on generated protos
 repourl=github.com/dchote/sawtooth-sdk-go
+
 grep -rl '"protobuf/' protobuf/ | while IFS= read -r file; do
+	if [ "$(uname)" == "Darwin" ]; then
     sed -i "" "s|\"protobuf/|\"${repourl}/protobuf/|" "$file"
+	else
+		sed -i "s|\"protobuf/|\"${repourl}/protobuf/|" "$file"
+	fi
 done
 
 (
